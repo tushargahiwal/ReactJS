@@ -13,4 +13,9 @@ props
   - it is a argument passed into react components
   - props are passed to component via html attributes
 
-  - the value send to the function through app.js
+  - the value send to the function through app.js 
+
+  useCallback hooks
+  - usecallback is a react hook that lets you cache a function definition between re-renders
+
+  
