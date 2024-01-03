@@ -18,4 +18,20 @@ props
   useCallback hooks
   - usecallback is a react hook that lets you cache a function definition between re-renders
 
-  
+  - onChange event
+    - it is occurs when the value of an html element is changed
+    - when the user changes the value of an element,the onchange event will be triggered
+
+  - useEffect hook
+     - it is used for when component needs to do something after render
+
+    useRef hook
+      - it is used for to persist value between renders
+      - it can be used to store a mutable value that does not cause a re-render when updated
+     
+     custom hooks
+     - it is also function and return a value
+
+     -useId hook 
+       - it is used for generating unique ids that can be passed to accessibility attributes
+       - if we generate the key so useId is not used
