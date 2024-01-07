@@ -8,6 +8,8 @@ function Login()
    const [password,SetPassword]= useState('');
 
    const {setUser}=useContext(UserContext)
+   //the acessiblity of setUser is come from userContextProvider
+   
     const handleSubmit=(e) => {
         e.preventDefault();
         setUser({username,password})
@@ -21,13 +23,14 @@ function Login()
     onChange={(e) =>{SetUsername(e.target.value)}}
   placeholder="username">
   </input>
+  {" "}
 
   <input type='text' 
   value={password}
   onChange={(e) =>{SetPassword(e.target.value)}}
   placeholder="password">
   </input>
-
+  {" "}
   <button onClick={handleSubmit}>Submit</button>
     </div>
   )
